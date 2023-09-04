@@ -74,4 +74,34 @@ li{
     border-radius: 3rem;
     cursor: pointer;
     color: var(--whiteColor);
+
+    a{
+        color: var(--whiteColor);
+        font-weight: 500;
+    }
+    &:hover{
+        background: var(--HoverColor)
+    }
+}
+
+img, video{
+    width: 100%;
+    height: auto;
+}
+
+input{
+    font-size: 100%;
+    color: var(--greyText);
+}
+
+p{
+    font-size: 13px;
+    color: var(--greyText);
+    line-height: 22px;
+}
+
+h4{
+    padding: 1rem 0;
+    font-weight: 700;
+    color: var(--blackColor);
 }
