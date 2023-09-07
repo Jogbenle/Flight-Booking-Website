@@ -8,13 +8,23 @@ const Navbar = () => {
     <div className='navBar flex'>
         <div className="navBarOne flex">
             <div>
-                <SiConsul/>
+                <SiConsul className='icon'/>
             </div>
 
-                <div className="flex">
+                <div className="none flex">
                     <li className='flex'><BsPhoneVibrate/>Support</li>
                     <li className='flex'><AiOutlineGlobal/>Languages</li>
                 </div>
+
+                <div className="atb flex">
+                    <span>Sign In</span>
+                    <span>Sign Out</span>
+                </div>
+        </div>
+        <div className="navBarTwo">
+            <div className="logoDiv">
+                <img src='' alt=''/>
+            </div>
         </div>
     </div>
   )
