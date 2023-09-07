@@ -1,5 +1,7 @@
 import React from 'react'
 import {SiConsul} from 'react-icons/si'
+import {BsPhoneVibrate} from 'react-icons/bs'
+import {AiOutlineGlobal} from 'react-icons/ai'
 
 const Navbar = () => {
   return (
@@ -10,7 +12,8 @@ const Navbar = () => {
             </div>
 
                 <div className="flex">
-                    <li className='flex'></li>
+                    <li className='flex'><BsPhoneVibrate/>Support</li>
+                    <li className='flex'><AiOutlineGlobal/>Languages</li>
                 </div>
         </div>
     </div>
