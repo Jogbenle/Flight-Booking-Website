@@ -132,6 +132,29 @@ h2{
             color: var(--primaryColor);
         }
 
-        
+        .atb{
+         gap: 1rem;
+            
+            span{
+                color: var(--blackColor);
+                font-size: 13px;
+                cursor: pointer;
+
+                &:hover{
+                    color: var(--PrimaryColor);
+                    font-size: 700;
+                }
+            }
+        }
+    }
+
+    .navBarTwo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 3rem;
+        padding: 1.5rem 1rem;
+        position: fixed;
+        transition: .3s ease-in-out;
     }
 }
