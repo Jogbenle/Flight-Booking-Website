@@ -23,8 +23,23 @@ const Navbar = () => {
                 </div>
         </div>
         <div className="navBarTwo">
+
             <div className="logoDiv">
-                <img src={logo} />
+                <img src={logo} className='logo'/>
+            </div>
+
+            <div className="navBarMenu">
+            <ul className="menu flex">
+                <li className="listItem">Home</li>
+                <li className="listItem">About</li>
+                <li className="listItem">offers</li>
+                <li className="listItem">Seats</li>
+                <li className="listItem">Destination</li>
+            </ul>
+
+            <button className='btn flex btnOne'>
+                Contact
+            </button>
             </div>
         </div>
     </div>
