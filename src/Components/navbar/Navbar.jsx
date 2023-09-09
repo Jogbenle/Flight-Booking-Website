@@ -2,6 +2,7 @@ import React from 'react'
 import {SiConsul} from 'react-icons/si'
 import {BsPhoneVibrate} from 'react-icons/bs'
 import {AiOutlineGlobal} from 'react-icons/ai'
+import {CgMenuGridO} from 'react-icons/cg'
 import logo from '../../assets/logo.png'
 
 const Navbar = () => {
@@ -41,6 +42,15 @@ const Navbar = () => {
                 Contact
             </button>
             </div>
+
+            {/* <button className='btn flex btnOne'>
+                Contact
+            </button> */}
+
+            <div className="toggleIcon">
+                <CgMenuGridO/>
+            </div>
+
         </div>
     </div>
   )
