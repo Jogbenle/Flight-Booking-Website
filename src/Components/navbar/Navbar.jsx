@@ -2,6 +2,7 @@ import React from 'react'
 import {SiConsul} from 'react-icons/si'
 import {BsPhoneVibrate} from 'react-icons/bs'
 import {AiOutlineGlobal} from 'react-icons/ai'
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className="navBarTwo">
             <div className="logoDiv">
-                <img src='' alt=''/>
+                <img src={logo} />
             </div>
         </div>
     </div>
