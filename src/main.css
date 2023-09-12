@@ -141,7 +141,7 @@ h2{
                 cursor: pointer;
 
                 &:hover{
-                    color: var(--PrimaryColor);
+                    color: var(--primaryColor);
                     font-size: 700;
                 }
             }
