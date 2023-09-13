@@ -156,5 +156,13 @@ h2{
         padding: 1.5rem 1rem;
         position: fixed;
         transition: .3s ease-in-out;
+
+        .logoDivi{
+            logo{
+                width: 20%;
+            }
+        }
+
+        
     }
 }
