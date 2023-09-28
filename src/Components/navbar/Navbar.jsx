@@ -23,10 +23,10 @@ const Navbar = () => {
              <span>Sign Out</span>
             </div>
         </div>
-        <div className="navBarTwo">
+        <div className="navBarTwo flex">
 
             <div className="logoDiv">
-                <img src={logo} className='logo'/>
+                <img src={logo} className='logo'/> 
             </div>
 
             <div className="navBarMenu">
