@@ -174,7 +174,34 @@ h2{
                 width: 80%;
                 transform:translateX(50%);
                 z-index: 2000;
+                box-shadow: rgba(0,0,0,0.1) opx 10px 15px -3px, rgba(0,0,0,0.5) 0px 4px 6px -2px;
+                border: 3px solid var(--whiteColor);
+                transition: .4s ease-in-out;   
+                
+                .menu{
+                    flex-direction: column;
+                    gap: .5rem;
+                    text-align:center;
+
+                    .listItem{
+                        padding: .5rem 0;
+                        cursor: pointer;
+                        color: var(--blackColor);
+
+                        &:hover{
+                            color: var(--primaryColor);
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .btnOne{
+                    display: block;
+                    justify-content: center;
+                    margin: auto;
+                    margin-top: 1rem;
+                }
             }
+        
         }
     }
 }
