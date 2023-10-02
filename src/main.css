@@ -206,5 +206,12 @@ h2{
                 display: none;
             }
         }
+        .toggleIcon{
+            .icon{
+                font-size: 30px;
+                color: var(--blackColor);
+            }
+        }
     }
+
 }
