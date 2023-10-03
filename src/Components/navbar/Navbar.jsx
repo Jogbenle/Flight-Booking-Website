@@ -8,6 +8,10 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
     const [active, setActive] = useState('navBarMenu')
     const showNavBar = ()=>{
+        setActive('navBarMenu showNavBar')
+    }
+
+    const removeNavBar = ()=>{
         setActive('navBarMenu')
     }
 
@@ -36,14 +40,14 @@ const Navbar = () => {
 
             <div className={active}>
             <ul className="menu flex">
-                <li className="listItem">Home</li>
-                <li className="listItem">About</li>
-                <li className="listItem">offers</li>
-                <li className="listItem">Seats</li>
-                <li className="listItem">Destination</li>
+                <li onClick={removeNavBar} className="listItem">Home</li>
+                <li onClick={removeNavBar} className="listItem">Seats</li>
+                <li onClick={removeNavBar} className="listItem">Destination</li>
+                <li onClick={removeNavBar} className="listItem">About</li>
+                <li onClick={removeNavBar} className="listItem">offers</li>
             </ul>
 
-            <button className='btn flex btnOne'>
+            <button onClick={removeNavBar} className='btn flex btnOne'>
                 Contact
             </button>
             </div>
