@@ -170,7 +170,7 @@ h2{
                 padding: 1.5rem;
                 border-radius: 10px;
                 top: 5rem;
-                right: 50%;
+                right: -50%;
                 width: 80%;
                 transform:translateX(50%);
                 z-index: 2000;
@@ -211,6 +211,10 @@ h2{
                 font-size: 30px;
                 color: var(--blackColor);
             }
+        }
+        .showNavBar{
+            right: 50%;
+            transition: -5s ease-in-out;
         }
     }
 
