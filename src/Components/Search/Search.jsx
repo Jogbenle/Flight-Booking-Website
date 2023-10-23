@@ -2,7 +2,12 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <div className='search container section'>
+    <div className="sectionContainer grid">
+      
+    </div>
+    
+    </div>
   )
 }
 
